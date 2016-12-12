@@ -1,0 +1,13 @@
+<jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc" xmlns:annox="http://annox.dev.java.net"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/jaxb 
+						http://java.sun.com/xml/ns/jaxb/bindingschema_2_0.xsd"
+	jaxb:extensionBindingPrefixes="xjc annox" version="2.1">
+
+	<jaxb:globalBindings generateElementProperty="false">
+		<xjc:serializable uid="7702" />
+		<xjc:javaType name="org.joda.time.localDate" xmlType="xs:date" adapter="com.test.jaxb.adapter.LocalDateAdapter" />
+	</jaxb:globalBindings>
+
+</jaxb:bindings>
